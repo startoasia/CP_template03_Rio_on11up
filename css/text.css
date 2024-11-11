@@ -1,0 +1,109 @@
+#title_s {
+    display: inline-block;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 0 28px;
+    margin-bottom: 12px;
+    font-size: var(--fs-s);
+    font-weight: 400;
+    line-height: var(--fs-xxl);
+}
+
+#title_l {
+    font-size: var(--fs-xxl);
+    line-height: var(--fs-big);
+    font-family: var(--fs-family-secondary);
+    color: var(--title-blue);
+    text-align: center;
+}
+
+#title_date {
+    color: var(--red);
+    font-weight: 400;
+    font-size: var(--fs-normal);
+    text-align: right;
+}
+
+
+p {
+    font-size: var(--fs-xs);
+}
+
+.txt-big{
+    font-size: var(--fs-l);
+}
+.txt-xl{
+    font-size: var(--fs-s);
+}
+@media (max-width:768px) {
+    #title_s {
+        font-size: var(--fs-normal);
+        padding: 0 20px;
+        line-height: 35px;
+    }
+
+    #title_l {
+        font-size: var(--fs-s);
+        line-height: var(--fs-xl);
+    }
+    #title_date {
+        font-size: var(--fs-xxs);
+    }
+    p {
+        font-size: var(--fs-normal);
+    }
+    
+    .txt-big{
+        font-size: var(--fs-s);
+    }
+    .txt-xl{
+        font-size: var(--fs-xs);
+    }
+}
+
+/*------------------------------------*\
+    $顏色設定
+\*------------------------------------*/
+
+.txt-pink {
+    color: var(--pink);
+}
+
+.txt-red {
+    color: var(--red);
+}
+
+.txt-blue {
+    color: var(--blue);
+}
+
+.txt-lightBlue {
+    color: var(--blue-second)
+}
+
+.txt-gray {
+    color: var(--gray);
+}
+
+.txt-dark {
+    color: var(--dark);
+}
+
+.bg-yellow {
+    background: var(--yellow);
+}
+
+.bg-pink {
+    background: var(--pink);
+    color: var(--light);
+}
+
+.bg-blue {
+    background: var(--blue);
+    color: var(--light);
+}
+
+.bg-red {
+    background: var(--special-red);
+    color: var(--light);
+}
